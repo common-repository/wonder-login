@@ -1,0 +1,51 @@
+.user_profile_page{
+
+	/*display: none;*/
+}
+.login-username label,.login-password label {
+	display: none;
+}
+#username,#password{
+	width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+
+}
+#username:focus{
+	outline: none;
+}
+#password:focus{
+	outline: none;
+}
+#password{
+	width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+}
+#rememberme{
+	border: 1px solid black;
+	width: 18px;
+    height: 17px;
+}
+#wl-submit:focus{
+	outline: none;
+}
+#wl-submit{
+	width: 100%;
+	padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+#wl-submit:hover{
+	color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+a.forgot-password.wl-forgot-password {
+    display: block;
+    padding-top: 24px;
+}
